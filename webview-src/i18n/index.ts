@@ -13,7 +13,6 @@ import enPdfMerge from "./locales/en/pdf-merge.json";
 import enPdfSplit from "./locales/en/pdf-split.json";
 import enJwtDecoder from "./locales/en/jwt-decoder.json";
 import enRegexTester from "./locales/en/regex-tester.json";
-import enDiffChecker from "./locales/en/diff-checker.json";
 import enColorConverter from "./locales/en/color-converter.json";
 import enCsvJson from "./locales/en/csv-json.json";
 import enJsonFormatter from "./locales/en/json-formatter.json";
@@ -34,7 +33,6 @@ import koPdfMerge from "./locales/ko/pdf-merge.json";
 import koPdfSplit from "./locales/ko/pdf-split.json";
 import koJwtDecoder from "./locales/ko/jwt-decoder.json";
 import koRegexTester from "./locales/ko/regex-tester.json";
-import koDiffChecker from "./locales/ko/diff-checker.json";
 import koColorConverter from "./locales/ko/color-converter.json";
 import koCsvJson from "./locales/ko/csv-json.json";
 import koJsonFormatter from "./locales/ko/json-formatter.json";
@@ -55,7 +53,6 @@ import jaPdfMerge from "./locales/ja/pdf-merge.json";
 import jaPdfSplit from "./locales/ja/pdf-split.json";
 import jaJwtDecoder from "./locales/ja/jwt-decoder.json";
 import jaRegexTester from "./locales/ja/regex-tester.json";
-import jaDiffChecker from "./locales/ja/diff-checker.json";
 import jaColorConverter from "./locales/ja/color-converter.json";
 import jaCsvJson from "./locales/ja/csv-json.json";
 import jaJsonFormatter from "./locales/ja/json-formatter.json";
@@ -76,7 +73,6 @@ import zhPdfMerge from "./locales/zh/pdf-merge.json";
 import zhPdfSplit from "./locales/zh/pdf-split.json";
 import zhJwtDecoder from "./locales/zh/jwt-decoder.json";
 import zhRegexTester from "./locales/zh/regex-tester.json";
-import zhDiffChecker from "./locales/zh/diff-checker.json";
 import zhColorConverter from "./locales/zh/color-converter.json";
 import zhCsvJson from "./locales/zh/csv-json.json";
 import zhJsonFormatter from "./locales/zh/json-formatter.json";
@@ -99,7 +95,6 @@ const resources = {
     "pdf-split": enPdfSplit,
     "jwt-decoder": enJwtDecoder,
     "regex-tester": enRegexTester,
-    "diff-checker": enDiffChecker,
     "color-converter": enColorConverter,
     "csv-json": enCsvJson,
     "json-formatter": enJsonFormatter,
@@ -121,7 +116,6 @@ const resources = {
     "pdf-split": koPdfSplit,
     "jwt-decoder": koJwtDecoder,
     "regex-tester": koRegexTester,
-    "diff-checker": koDiffChecker,
     "color-converter": koColorConverter,
     "csv-json": koCsvJson,
     "json-formatter": koJsonFormatter,
@@ -143,7 +137,6 @@ const resources = {
     "pdf-split": jaPdfSplit,
     "jwt-decoder": jaJwtDecoder,
     "regex-tester": jaRegexTester,
-    "diff-checker": jaDiffChecker,
     "color-converter": jaColorConverter,
     "csv-json": jaCsvJson,
     "json-formatter": jaJsonFormatter,
@@ -165,7 +158,6 @@ const resources = {
     "pdf-split": zhPdfSplit,
     "jwt-decoder": zhJwtDecoder,
     "regex-tester": zhRegexTester,
-    "diff-checker": zhDiffChecker,
     "color-converter": zhColorConverter,
     "csv-json": zhCsvJson,
     "json-formatter": zhJsonFormatter,
@@ -214,7 +206,6 @@ i18n.use(initReactI18next).init({
     "pdf-split",
     "jwt-decoder",
     "regex-tester",
-    "diff-checker",
     "color-converter",
     "csv-json",
     "json-formatter",

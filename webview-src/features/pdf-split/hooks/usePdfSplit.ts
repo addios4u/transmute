@@ -38,8 +38,8 @@ export function usePdfSplit() {
         const arrayBuffer = await newFile.arrayBuffer();
         const thumbs = await renderAllThumbnails(arrayBuffer);
         setThumbnails(thumbs);
-      } catch {
-        // Thumbnail rendering failed, continue without thumbnails
+      } catch (e) {
+        console.error("[pdf-split] thumbnail rendering failed:", e);
         setThumbnails([]);
       }
     } catch {

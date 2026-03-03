@@ -20,7 +20,6 @@ const UuidGeneratorPage = lazy(() => import("@/features/uuid-generator").then((m
 const TimestampConverterPage = lazy(() => import("@/features/timestamp-converter").then((m) => ({ default: m.TimestampConverterPage })));
 const JwtDecoderPage = lazy(() => import("@/features/jwt-decoder").then((m) => ({ default: m.JwtDecoderPage })));
 const RegexTesterPage = lazy(() => import("@/features/regex-tester").then((m) => ({ default: m.RegexTesterPage })));
-const DiffCheckerPage = lazy(() => import("@/features/diff-checker").then((m) => ({ default: m.DiffCheckerPage })));
 const ColorConverterPage = lazy(() => import("@/features/color-converter").then((m) => ({ default: m.ColorConverterPage })));
 const CsvJsonPage = lazy(() => import("@/features/csv-json").then((m) => ({ default: m.CsvJsonPage })));
 
@@ -41,7 +40,6 @@ const TOOL_COMPONENTS: Record<string, React.LazyExoticComponent<React.ComponentT
   "timestamp-converter": TimestampConverterPage,
   "jwt-decoder": JwtDecoderPage,
   "regex-tester": RegexTesterPage,
-  "diff-checker": DiffCheckerPage,
   "color-converter": ColorConverterPage,
   "csv-json": CsvJsonPage,
 };

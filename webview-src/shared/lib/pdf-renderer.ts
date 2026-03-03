@@ -1,8 +1,9 @@
 import * as pdfjsLib from "pdfjs-dist";
 
-// In VS Code webview with IIFE bundle, we use a fake worker
-// pdfjs-dist will fall back to running without a worker (slower but works)
-pdfjsLib.GlobalWorkerOptions.workerSrc = "";
+// Import worker module directly so it registers globalThis.pdfjsWorker.
+// pdfjs-dist detects this and uses the main-thread handler instead of
+// spawning a Web Worker (which fails in VS Code webview due to CSP).
+import "pdfjs-dist/build/pdf.worker.min.mjs";
 
 const THUMBNAIL_SCALE = 0.5;
 

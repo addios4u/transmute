@@ -1,4 +1,4 @@
-export type IconId = "code" | "image-up" | "image-down" | "image-convert" | "image-resize" | "pdf-merge" | "pdf-split" | "jwt" | "regex" | "diff" | "color" | "csv" | "json-format" | "url-encode" | "hash" | "uuid" | "timestamp";
+export type IconId = "code" | "image-up" | "image-down" | "image-convert" | "image-resize" | "pdf-merge" | "pdf-split" | "jwt" | "regex" | "color" | "csv" | "json-format" | "url-encode" | "hash" | "uuid" | "timestamp";
 
 export interface ToolDefinition {
   path: string;
@@ -136,12 +136,6 @@ export const TOOL_GROUPS: ToolGroup[] = [
         titleKey: "tools.regexTester.title",
         descriptionKey: "tools.regexTester.description",
         iconId: "regex",
-      },
-      {
-        path: "diff-checker",
-        titleKey: "tools.diffChecker.title",
-        descriptionKey: "tools.diffChecker.description",
-        iconId: "diff",
       },
       {
         path: "color-converter",
