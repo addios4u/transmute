@@ -1,0 +1,131 @@
+{
+  "app": {
+    "name": "Transmute",
+    "tagline": "데이터를 변환하세요. 의미는 유지하세요."
+  },
+  "home": {
+    "hero": {
+      "title": "모든 포맷, 하나의 도구",
+      "subtitle": "JSON, 이미지 등을 변환하는 무료 브라우저 기반 도구 — 비공개로, 즉시.",
+      "cta": "시작하기"
+    }
+  },
+  "groups": {
+    "base64": "Base64",
+    "json": "JSON",
+    "image": "이미지",
+    "pdf": "PDF",
+    "utility": "유틸리티",
+    "developer": "개발자 도구"
+  },
+  "tools": {
+    "jsonToTs": {
+      "title": "JSON → TypeScript",
+      "description": "JSON 데이터에서 TypeScript 인터페이스와 타입을 생성합니다."
+    },
+    "jsonToXml": {
+      "title": "JSON → XML",
+      "description": "JSON 데이터를 올바른 형식의 XML 마크업으로 변환합니다."
+    },
+    "xmlToJson": {
+      "title": "XML → JSON",
+      "description": "XML 문서를 깔끔한 JSON 데이터로 파싱합니다."
+    },
+    "imageToBase64": {
+      "title": "이미지 → Base64",
+      "description": "이미지를 코드에 삽입할 수 있는 Base64 문자열로 변환합니다."
+    },
+    "base64ToImage": {
+      "title": "Base64 → 이미지",
+      "description": "Base64 문자열을 다운로드 가능한 이미지 파일로 디코딩합니다."
+    },
+    "imageConverter": {
+      "title": "이미지 변환",
+      "description": "PNG, JPEG, WebP 포맷 간 이미지를 변환합니다."
+    },
+    "imageResizer": {
+      "title": "이미지 리사이즈",
+      "description": "여러 이미지를 업로드하고, 일괄 리사이즈 후 ZIP으로 다운로드합니다."
+    },
+    "imageEditor": {
+      "title": "이미지 편집기",
+      "description": "브라우저에서 이미지 크기 조정, 자르기, 포맷 변환을 수행합니다."
+    },
+    "pdfMerge": {
+      "title": "PDF 합치기",
+      "description": "여러 PDF 파일을 하나의 문서로 합칩니다."
+    },
+    "pdfSplit": {
+      "title": "PDF 나누기",
+      "description": "PDF에서 페이지를 추출하거나 개별 파일로 분할합니다."
+    },
+    "jsonFormatter": {
+      "title": "JSON 포맷터",
+      "description": "JSON 데이터를 포맷팅, 축소 및 유효성 검사합니다."
+    },
+    "urlEncoder": {
+      "title": "URL 인코더",
+      "description": "URL 컴포넌트를 인코딩하거나 디코딩합니다."
+    },
+    "hashGenerator": {
+      "title": "해시 생성기",
+      "description": "텍스트 또는 파일에서 SHA 해시를 생성합니다."
+    },
+    "uuidGenerator": {
+      "title": "UUID 생성기",
+      "description": "랜덤 UUID v4 식별자를 생성합니다."
+    },
+    "timestampConverter": {
+      "title": "타임스탬프 변환",
+      "description": "Unix 타임스탬프와 날짜 간 변환합니다."
+    },
+    "jwtDecoder": {
+      "title": "JWT 디코더",
+      "description": "JWT 토큰의 헤더, 페이로드, 서명을 디코딩합니다."
+    },
+    "regexTester": {
+      "title": "정규식 테스터",
+      "description": "실시간 매칭 및 하이라이트로 정규식을 테스트합니다."
+    },
+    "diffChecker": {
+      "title": "Diff 체커",
+      "description": "두 텍스트를 비교하고 차이점을 시각화합니다."
+    },
+    "colorConverter": {
+      "title": "색상 변환기",
+      "description": "HEX, RGB, HSL 포맷 간 색상을 변환합니다."
+    },
+    "csvJson": {
+      "title": "CSV / JSON",
+      "description": "CSV와 JSON 포맷 간 변환합니다."
+    }
+  },
+  "comingSoon": "준비 중",
+  "inDevelopment": "개발중",
+  "action": {
+    "convert": "변환",
+    "copy": "복사",
+    "copied": "복사됨!",
+    "clear": "초기화",
+    "paste": "붙여넣기",
+    "download": "다운로드"
+  },
+  "error": {
+    "invalidJson": "유효하지 않은 JSON",
+    "parseError": "{{line}}번째 줄에서 파싱 오류"
+  },
+  "footer": {
+    "privacy": "모든 처리는 브라우저에서 이루어집니다. 데이터는 서버로 전송되지 않습니다."
+  },
+  "theme": {
+    "system": "시스템",
+    "light": "라이트",
+    "dark": "다크"
+  },
+  "language": {
+    "en": "English",
+    "ko": "한국어",
+    "ja": "日本語",
+    "zh": "中文"
+  }
+}

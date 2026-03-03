@@ -1,0 +1,16 @@
+{
+  "title": "JSON → TypeScript",
+  "description": "粘贴JSON生成TypeScript类型",
+  "options": {
+    "rootTypeName": "根类型名称",
+    "useInterface": "使用interface",
+    "useType": "使用type",
+    "optionalProperties": "可选属性",
+    "strict": "严格",
+    "loose": "宽松",
+    "arrayInference": "数组推断",
+    "firstElement": "第一个元素",
+    "mergeAll": "合并所有",
+    "outputZod": "生成Zod模式"
+  }
+}

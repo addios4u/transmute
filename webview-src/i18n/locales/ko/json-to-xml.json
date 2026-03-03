@@ -1,0 +1,9 @@
+{
+  "title": "JSON → XML",
+  "description": "JSON을 붙여넣어 XML 마크업을 생성하세요",
+  "options": {
+    "rootElementName": "루트 엘리먼트",
+    "indent": "들여쓰기",
+    "xmlDeclaration": "XML 선언"
+  }
+}

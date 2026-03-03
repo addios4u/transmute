@@ -1,0 +1,15 @@
+{
+  "title": "JSONフォーマッター",
+  "description": "JSONデータの整形、圧縮、バリデーションを行います",
+  "input": "入力JSON",
+  "output": "出力",
+  "options": {
+    "mode": "モード",
+    "format": "フォーマット",
+    "minify": "圧縮",
+    "indent": "インデント",
+    "indent2": "2スペース",
+    "indent4": "4スペース",
+    "indentTab": "タブ"
+  }
+}

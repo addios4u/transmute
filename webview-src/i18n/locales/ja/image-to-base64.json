@@ -1,0 +1,7 @@
+{
+  "title": "画像 → Base64",
+  "description": "画像をドロップまたは選択してBase64に変換",
+  "dropzone": "ここに画像をドロップまたはクリックして選択",
+  "output": "Base64出力",
+  "fileInfo": "{{name}} ({{size}})"
+}

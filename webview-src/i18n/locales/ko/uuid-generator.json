@@ -1,0 +1,16 @@
+{
+  "title": "UUID 생성기",
+  "description": "랜덤 UUID v4 식별자를 생성합니다",
+  "output": "생성된 UUID",
+  "generate": "생성",
+  "noResults": "생성 버튼을 클릭하여 UUID를 만드세요",
+  "options": {
+    "count": "개수",
+    "case": "대소문자",
+    "lowercase": "소문자",
+    "uppercase": "대문자",
+    "hyphens": "하이픈",
+    "withHyphens": "하이픈 포함",
+    "withoutHyphens": "하이픈 제거"
+  }
+}

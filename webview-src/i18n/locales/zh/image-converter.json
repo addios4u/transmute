@@ -1,0 +1,16 @@
+{
+  "title": "图片转换",
+  "description": "上传图片并转换为PNG、JPEG或WebP格式",
+  "dropzone": "拖拽图片到此处或点击选择",
+  "input": "原始图片",
+  "output": "转换后的图片",
+  "noResult": "上传图片并点击转换按钮查看结果",
+  "changeImage": "更换",
+  "converting": "转换中...",
+  "sizeComparison": "{{original}} → {{converted}} ({{ratio}})",
+  "resolution": "{{width}} × {{height}}",
+  "options": {
+    "outputFormat": "输出格式",
+    "quality": "质量"
+  }
+}

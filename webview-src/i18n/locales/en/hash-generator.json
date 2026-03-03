@@ -1,0 +1,9 @@
+{
+  "title": "Hash Generator",
+  "description": "Generate SHA-1, SHA-256, SHA-384, SHA-512 hashes from text or files",
+  "input": "Input Text",
+  "output": "Hash Results",
+  "inputPlaceholder": "Enter text to hash...",
+  "dropFile": "Drop a file here or click to select",
+  "noResults": "Enter text or drop a file to generate hashes"
+}

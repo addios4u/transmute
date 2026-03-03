@@ -1,0 +1,7 @@
+{
+  "title": "Image to Base64",
+  "description": "Drop or select an image to convert to Base64",
+  "dropzone": "Drop image here or click to select",
+  "output": "Base64 Output",
+  "fileInfo": "{{name}} ({{size}})"
+}

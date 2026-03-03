@@ -1,0 +1,15 @@
+{
+  "title": "JSON 格式化",
+  "description": "格式化、压缩和验证JSON数据",
+  "input": "输入JSON",
+  "output": "输出",
+  "options": {
+    "mode": "模式",
+    "format": "格式化",
+    "minify": "压缩",
+    "indent": "缩进",
+    "indent2": "2个空格",
+    "indent4": "4个空格",
+    "indentTab": "制表符"
+  }
+}

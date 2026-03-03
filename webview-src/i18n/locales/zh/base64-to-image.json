@@ -1,0 +1,7 @@
+{
+  "title": "Base64 → 图片",
+  "description": "粘贴Base64字符串预览并下载为图片",
+  "input": "Base64输入",
+  "preview": "图片预览",
+  "noPreview": "粘贴有效的Base64图片字符串以查看预览"
+}

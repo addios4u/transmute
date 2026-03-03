@@ -1,0 +1,9 @@
+{
+  "title": "JSON to XML",
+  "description": "Paste JSON to generate XML markup",
+  "options": {
+    "rootElementName": "Root element",
+    "indent": "Indent",
+    "xmlDeclaration": "XML declaration"
+  }
+}

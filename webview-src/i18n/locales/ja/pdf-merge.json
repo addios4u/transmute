@@ -1,0 +1,10 @@
+{
+  "title": "PDF結合",
+  "description": "複数のPDFファイルをアップロードして1つのドキュメントに結合します",
+  "dropzone": "PDFファイルをここにドロップ、またはクリックして選択（複数可）",
+  "fileCount": "{{count}}ファイル選択済み",
+  "totalPages": "合計{{count}}ページ",
+  "pages": "{{count}}ページ",
+  "processing": "結合中...",
+  "mergeAndDownload": "結合＆ダウンロード（{{count}}ファイル）"
+}

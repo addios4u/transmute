@@ -1,0 +1,17 @@
+{
+  "title": "타임스탬프 변환",
+  "description": "Unix 타임스탬프와 사람이 읽을 수 있는 날짜 간 변환",
+  "currentTime": "현재 시간",
+  "localTime": "로컬",
+  "relative": "상대 시간",
+  "input": "입력",
+  "output": "결과",
+  "timestampPlaceholder": "Unix 타임스탬프를 입력하세요 (예: 1700000000)",
+  "autoDetect": "초/밀리초가 자동으로 감지됩니다",
+  "noResults": "타임스탬프를 입력하거나 날짜를 선택하여 변환하세요",
+  "options": {
+    "mode": "모드",
+    "toDate": "타임스탬프 → 날짜",
+    "toTimestamp": "날짜 → 타임스탬프"
+  }
+}

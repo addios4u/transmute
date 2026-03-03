@@ -1,0 +1,16 @@
+{
+  "title": "JWT 解码器",
+  "description": "粘贴JWT令牌以解码其头部、载荷和签名",
+  "inputLabel": "JWT 令牌",
+  "inputPlaceholder": "在此粘贴JWT令牌...",
+  "header": "头部",
+  "payload": "载荷",
+  "signature": "签名",
+  "expiresAt": "过期时间",
+  "expired": "已过期",
+  "valid": "有效",
+  "error": {
+    "invalid_jwt_format": "无效的JWT格式。JWT必须包含由点分隔的3个部分。",
+    "invalid_jwt_content": "JWT解码失败。令牌内容无效。"
+  }
+}

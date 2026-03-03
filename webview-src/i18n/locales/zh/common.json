@@ -1,0 +1,131 @@
+{
+  "app": {
+    "name": "Transmute",
+    "tagline": "转换数据，保留含义。"
+  },
+  "home": {
+    "hero": {
+      "title": "所有格式，一套工具",
+      "subtitle": "免费的浏览器工具，用于转换JSON、图片等 — 私密、即时。",
+      "cta": "开始使用"
+    }
+  },
+  "groups": {
+    "base64": "Base64",
+    "json": "JSON",
+    "image": "图片",
+    "pdf": "PDF",
+    "utility": "实用工具",
+    "developer": "开发者工具"
+  },
+  "tools": {
+    "jsonToTs": {
+      "title": "JSON → TypeScript",
+      "description": "从任意JSON数据生成TypeScript接口和类型。"
+    },
+    "jsonToXml": {
+      "title": "JSON → XML",
+      "description": "将JSON数据转换为格式良好的XML标记。"
+    },
+    "xmlToJson": {
+      "title": "XML → JSON",
+      "description": "将XML文档解析为干净的JSON数据。"
+    },
+    "imageToBase64": {
+      "title": "图片 → Base64",
+      "description": "将图片转换为可嵌入代码的Base64编码字符串。"
+    },
+    "base64ToImage": {
+      "title": "Base64 → 图片",
+      "description": "将Base64字符串解码为可下载的图片文件。"
+    },
+    "imageConverter": {
+      "title": "图片转换",
+      "description": "在PNG、JPEG和WebP格式之间转换图片。"
+    },
+    "imageResizer": {
+      "title": "图片调整大小",
+      "description": "上传多张图片，批量调整大小后一键下载ZIP。"
+    },
+    "imageEditor": {
+      "title": "图片编辑器",
+      "description": "在浏览器中调整图片大小、裁剪和转换图片格式。"
+    },
+    "pdfMerge": {
+      "title": "PDF合并",
+      "description": "将多个PDF文件合并为一个文档。"
+    },
+    "pdfSplit": {
+      "title": "PDF拆分",
+      "description": "从PDF中提取页面或拆分为单独的文件。"
+    },
+    "jsonFormatter": {
+      "title": "JSON格式化",
+      "description": "格式化、压缩和验证JSON数据。"
+    },
+    "urlEncoder": {
+      "title": "URL编码器",
+      "description": "对URL组件进行编码或解码。"
+    },
+    "hashGenerator": {
+      "title": "哈希生成器",
+      "description": "从文本或文件生成SHA哈希。"
+    },
+    "uuidGenerator": {
+      "title": "UUID生成器",
+      "description": "生成随机UUID v4标识符。"
+    },
+    "timestampConverter": {
+      "title": "时间戳转换",
+      "description": "在Unix时间戳和日期之间转换。"
+    },
+    "jwtDecoder": {
+      "title": "JWT 解码器",
+      "description": "解码JWT令牌以检查头部、载荷和签名。"
+    },
+    "regexTester": {
+      "title": "正则测试器",
+      "description": "通过实时匹配和高亮测试正则表达式。"
+    },
+    "diffChecker": {
+      "title": "Diff 检查器",
+      "description": "比较两段文本并可视化差异。"
+    },
+    "colorConverter": {
+      "title": "颜色转换器",
+      "description": "在HEX、RGB和HSL格式之间转换颜色。"
+    },
+    "csvJson": {
+      "title": "CSV / JSON",
+      "description": "在CSV和JSON格式之间转换。"
+    }
+  },
+  "comingSoon": "即将推出",
+  "inDevelopment": "开发中",
+  "action": {
+    "convert": "转换",
+    "copy": "复制",
+    "copied": "已复制！",
+    "clear": "清除",
+    "paste": "粘贴",
+    "download": "下载"
+  },
+  "error": {
+    "invalidJson": "无效的JSON",
+    "parseError": "第{{line}}行解析错误"
+  },
+  "footer": {
+    "privacy": "所有处理均在浏览器中完成，数据不会发送到任何服务器。"
+  },
+  "theme": {
+    "system": "系统",
+    "light": "浅色",
+    "dark": "深色"
+  },
+  "language": {
+    "en": "English",
+    "ko": "한국어",
+    "ja": "日本語",
+    "zh": "中文"
+  }
+}

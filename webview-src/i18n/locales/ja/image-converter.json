@@ -1,0 +1,16 @@
+{
+  "title": "画像変換",
+  "description": "画像をアップロードしてPNG、JPEG、WebP形式に変換します",
+  "dropzone": "画像をドラッグまたはクリックして選択",
+  "input": "元の画像",
+  "output": "変換された画像",
+  "noResult": "画像をアップロードして変換ボタンをクリックしてください",
+  "changeImage": "変更",
+  "converting": "変換中...",
+  "sizeComparison": "{{original}} → {{converted}} ({{ratio}})",
+  "resolution": "{{width}} × {{height}}",
+  "options": {
+    "outputFormat": "出力フォーマット",
+    "quality": "品質"
+  }
+}

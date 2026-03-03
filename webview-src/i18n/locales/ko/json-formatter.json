@@ -1,0 +1,15 @@
+{
+  "title": "JSON 포맷터",
+  "description": "JSON 데이터를 포맷팅, 축소 및 유효성 검사합니다",
+  "input": "입력 JSON",
+  "output": "출력",
+  "options": {
+    "mode": "모드",
+    "format": "포맷",
+    "minify": "축소",
+    "indent": "들여쓰기",
+    "indent2": "2칸 스페이스",
+    "indent4": "4칸 스페이스",
+    "indentTab": "탭"
+  }
+}

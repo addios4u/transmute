@@ -1,0 +1,12 @@
+{
+  "title": "정규식 테스터",
+  "description": "실시간 매칭 및 하이라이트로 정규식을 테스트하세요",
+  "patternPlaceholder": "정규식 패턴을 입력하세요...",
+  "testString": "테스트 문자열",
+  "testStringPlaceholder": "테스트할 텍스트를 입력하세요...",
+  "matchCount": "매치 수",
+  "matchResult": "매칭 결과",
+  "groups": "캡처 그룹",
+  "matchIndex": "매치 #{{index}}",
+  "group": "그룹"
+}

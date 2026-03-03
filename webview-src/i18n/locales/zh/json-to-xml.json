@@ -1,0 +1,9 @@
+{
+  "title": "JSON → XML",
+  "description": "粘贴JSON生成XML标记",
+  "options": {
+    "rootElementName": "根元素",
+    "indent": "缩进",
+    "xmlDeclaration": "XML声明"
+  }
+}

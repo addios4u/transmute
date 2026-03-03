@@ -1,0 +1,19 @@
+{
+  "title": "图片调整大小",
+  "description": "上传多张图片，批量调整大小后一键下载",
+  "dropzone": "拖拽图片或ZIP文件到此处，或点击选择（支持多选）",
+  "fileCount": "已选择{{count}}个文件",
+  "processing": "处理中...",
+  "errorItem": "错误",
+  "progressText": "{{current}} / {{total}} 已处理",
+  "resizeAndDownload": "调整大小并下载（{{count}}个文件）",
+  "options": {
+    "resize": "调整大小",
+    "ratio": "比例",
+    "maxDimension": "最大尺寸",
+    "width": "宽",
+    "height": "高",
+    "format": "格式",
+    "quality": "质量"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "CSV / JSON",
+  "description": "Convert between CSV and JSON formats with customizable delimiters",
+  "csvToJson": "CSV \u2192 JSON",
+  "jsonToCsv": "JSON \u2192 CSV",
+  "delimiter": "Delimiter",
+  "delimiterComma": "Comma",
+  "delimiterTab": "Tab",
+  "delimiterSemicolon": "Semicolon",
+  "error": {
+    "json_not_array": "JSON must be an array of objects.",
+    "invalid_json": "Invalid JSON format."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "title": "이미지 리사이즈",
+  "description": "여러 이미지를 업로드하고 일괄 리사이즈하여 한번에 다운로드하세요",
+  "dropzone": "이미지 또는 ZIP 파일을 드래그하거나 클릭하여 선택 (다중 선택 가능)",
+  "fileCount": "{{count}}개 파일 선택됨",
+  "processing": "처리 중...",
+  "errorItem": "오류",
+  "progressText": "{{current}} / {{total}} 처리 완료",
+  "resizeAndDownload": "리사이즈 & 다운로드 ({{count}}개 파일)",
+  "options": {
+    "resize": "리사이즈",
+    "ratio": "비율",
+    "maxDimension": "최대 크기",
+    "width": "너비",
+    "height": "높이",
+    "format": "포맷",
+    "quality": "품질"
+  }
+}

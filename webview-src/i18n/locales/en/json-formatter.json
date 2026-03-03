@@ -1,0 +1,15 @@
+{
+  "title": "JSON Formatter",
+  "description": "Format, minify, and validate JSON data",
+  "input": "Input JSON",
+  "output": "Output",
+  "options": {
+    "mode": "Mode",
+    "format": "Format",
+    "minify": "Minify",
+    "indent": "Indent",
+    "indent2": "2 Spaces",
+    "indent4": "4 Spaces",
+    "indentTab": "Tab"
+  }
+}

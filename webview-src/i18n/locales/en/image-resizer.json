@@ -1,0 +1,19 @@
+{
+  "title": "Image Resizer",
+  "description": "Upload multiple images and batch resize them with a single download",
+  "dropzone": "Drop images or ZIP files here, or click to select (multiple)",
+  "fileCount": "{{count}} file(s) selected",
+  "processing": "Processing...",
+  "errorItem": "Error",
+  "progressText": "{{current}} / {{total}} processed",
+  "resizeAndDownload": "Resize & Download ({{count}} files)",
+  "options": {
+    "resize": "Resize",
+    "ratio": "Ratio",
+    "maxDimension": "Max Size",
+    "width": "W",
+    "height": "H",
+    "format": "Format",
+    "quality": "Quality"
+  }
+}

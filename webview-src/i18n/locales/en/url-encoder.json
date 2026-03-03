@@ -1,0 +1,12 @@
+{
+  "title": "URL Encoder / Decoder",
+  "description": "Encode or decode URL components",
+  "input": "Input",
+  "output": "Output",
+  "inputPlaceholder": "Enter text to encode or decode...",
+  "options": {
+    "mode": "Mode",
+    "encode": "Encode",
+    "decode": "Decode"
+  }
+}

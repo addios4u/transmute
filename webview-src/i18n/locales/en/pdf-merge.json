@@ -1,0 +1,10 @@
+{
+  "title": "PDF Merge",
+  "description": "Upload multiple PDF files and combine them into a single document",
+  "dropzone": "Drop PDF files here, or click to select (multiple)",
+  "fileCount": "{{count}} file(s) selected",
+  "totalPages": "{{count}} total page(s)",
+  "pages": "{{count}} page(s)",
+  "processing": "Merging...",
+  "mergeAndDownload": "Merge & Download ({{count}} files)"
+}

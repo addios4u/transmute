@@ -1,0 +1,17 @@
+{
+  "title": "时间戳转换",
+  "description": "在Unix时间戳和人类可读日期之间转换",
+  "currentTime": "当前时间",
+  "localTime": "本地时间",
+  "relative": "相对时间",
+  "input": "输入",
+  "output": "结果",
+  "timestampPlaceholder": "输入Unix时间戳（例：1700000000）",
+  "autoDetect": "自动检测秒和毫秒",
+  "noResults": "输入时间戳或选择日期进行转换",
+  "options": {
+    "mode": "模式",
+    "toDate": "时间戳 → 日期",
+    "toTimestamp": "日期 → 时间戳"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "UUID Generator",
+  "description": "Generate random UUID v4 identifiers",
+  "output": "Generated UUIDs",
+  "generate": "Generate",
+  "noResults": "Click Generate to create UUIDs",
+  "options": {
+    "count": "Count",
+    "case": "Case",
+    "lowercase": "lowercase",
+    "uppercase": "UPPERCASE",
+    "hyphens": "Hyphens",
+    "withHyphens": "With hyphens",
+    "withoutHyphens": "Without hyphens"
+  }
+}

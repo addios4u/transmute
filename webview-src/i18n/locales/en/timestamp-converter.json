@@ -1,0 +1,17 @@
+{
+  "title": "Timestamp Converter",
+  "description": "Convert between Unix timestamps and human-readable dates",
+  "currentTime": "Current Time",
+  "localTime": "Local",
+  "relative": "Relative",
+  "input": "Input",
+  "output": "Result",
+  "timestampPlaceholder": "Enter Unix timestamp (e.g. 1700000000)",
+  "autoDetect": "Seconds and milliseconds are auto-detected",
+  "noResults": "Enter a timestamp or select a date to convert",
+  "options": {
+    "mode": "Mode",
+    "toDate": "Timestamp → Date",
+    "toTimestamp": "Date → Timestamp"
+  }
+}

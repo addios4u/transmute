@@ -1,0 +1,7 @@
+{
+  "title": "Base64 → 이미지",
+  "description": "Base64 문자열을 붙여넣어 이미지로 미리보기 및 다운로드",
+  "input": "Base64 입력",
+  "preview": "이미지 미리보기",
+  "noPreview": "유효한 Base64 이미지 문자열을 붙여넣어 미리보기를 확인하세요"
+}

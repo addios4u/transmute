@@ -1,0 +1,9 @@
+{
+  "title": "JSON → XML",
+  "description": "JSONを貼り付けてXMLマークアップを生成",
+  "options": {
+    "rootElementName": "ルート要素",
+    "indent": "インデント",
+    "xmlDeclaration": "XML宣言"
+  }
+}

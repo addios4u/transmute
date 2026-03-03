@@ -1,0 +1,131 @@
+{
+  "app": {
+    "name": "Transmute",
+    "tagline": "データを変換。意味はそのまま。"
+  },
+  "home": {
+    "hero": {
+      "title": "あらゆる形式を、ひとつのツールで",
+      "subtitle": "JSON、画像などを変換する無料ブラウザツール — プライベートかつ即座に。",
+      "cta": "始めましょう"
+    }
+  },
+  "groups": {
+    "base64": "Base64",
+    "json": "JSON",
+    "image": "画像",
+    "pdf": "PDF",
+    "utility": "ユーティリティ",
+    "developer": "開発者ツール"
+  },
+  "tools": {
+    "jsonToTs": {
+      "title": "JSON → TypeScript",
+      "description": "JSONデータからTypeScriptのインターフェースと型を生成します。"
+    },
+    "jsonToXml": {
+      "title": "JSON → XML",
+      "description": "JSONデータを整形されたXMLマークアップに変換します。"
+    },
+    "xmlToJson": {
+      "title": "XML → JSON",
+      "description": "XMLドキュメントをクリーンなJSONデータにパースします。"
+    },
+    "imageToBase64": {
+      "title": "画像 → Base64",
+      "description": "画像をコードに埋め込み可能なBase64文字列に変換します。"
+    },
+    "base64ToImage": {
+      "title": "Base64 → 画像",
+      "description": "Base64文字列をダウンロード可能な画像ファイルにデコードします。"
+    },
+    "imageConverter": {
+      "title": "画像変換",
+      "description": "PNG、JPEG、WebPフォーマット間で画像を変換します。"
+    },
+    "imageResizer": {
+      "title": "画像リサイズ",
+      "description": "複数の画像をアップロードし、一括リサイズしてZIPでダウンロードします。"
+    },
+    "imageEditor": {
+      "title": "画像エディター",
+      "description": "ブラウザで画像のリサイズ、トリミング、フォーマット変換を行います。"
+    },
+    "pdfMerge": {
+      "title": "PDF結合",
+      "description": "複数のPDFファイルを1つのドキュメントに結合します。"
+    },
+    "pdfSplit": {
+      "title": "PDF分割",
+      "description": "PDFからページを抽出したり、個別のファイルに分割します。"
+    },
+    "jsonFormatter": {
+      "title": "JSONフォーマッター",
+      "description": "JSONデータの整形、圧縮、バリデーションを行います。"
+    },
+    "urlEncoder": {
+      "title": "URLエンコーダー",
+      "description": "URLコンポーネントのエンコード・デコードを行います。"
+    },
+    "hashGenerator": {
+      "title": "ハッシュジェネレーター",
+      "description": "テキストやファイルからSHAハッシュを生成します。"
+    },
+    "uuidGenerator": {
+      "title": "UUIDジェネレーター",
+      "description": "ランダムなUUID v4識別子を生成します。"
+    },
+    "timestampConverter": {
+      "title": "タイムスタンプ変換",
+      "description": "Unixタイムスタンプと日付を相互変換します。"
+    },
+    "jwtDecoder": {
+      "title": "JWTデコーダー",
+      "description": "JWTトークンのヘッダー、ペイロード、署名をデコードします。"
+    },
+    "regexTester": {
+      "title": "正規表現テスター",
+      "description": "リアルタイムのマッチングとハイライトで正規表現をテストします。"
+    },
+    "diffChecker": {
+      "title": "Diffチェッカー",
+      "description": "2つのテキストを比較して差分を視覚化します。"
+    },
+    "colorConverter": {
+      "title": "カラーコンバーター",
+      "description": "HEX、RGB、HSL形式間で色を変換します。"
+    },
+    "csvJson": {
+      "title": "CSV / JSON",
+      "description": "CSVとJSON形式を相互変換します。"
+    }
+  },
+  "comingSoon": "近日公開",
+  "inDevelopment": "開発中",
+  "action": {
+    "convert": "変換",
+    "copy": "コピー",
+    "copied": "コピー完了！",
+    "clear": "クリア",
+    "paste": "貼り付け",
+    "download": "ダウンロード"
+  },
+  "error": {
+    "invalidJson": "無効なJSON",
+    "parseError": "{{line}}行目でパースエラー"
+  },
+  "footer": {
+    "privacy": "すべての処理はブラウザ内で行われます。データはサーバーに送信されません。"
+  },
+  "theme": {
+    "system": "システム",
+    "light": "ライト",
+    "dark": "ダーク"
+  },
+  "language": {
+    "en": "English",
+    "ko": "한국어",
+    "ja": "日本語",
+    "zh": "中文"
+  }
+}

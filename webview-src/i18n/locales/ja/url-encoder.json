@@ -1,0 +1,12 @@
+{
+  "title": "URLエンコーダー / デコーダー",
+  "description": "URLコンポーネントのエンコード・デコードを行います",
+  "input": "入力",
+  "output": "出力",
+  "inputPlaceholder": "エンコードまたはデコードするテキストを入力...",
+  "options": {
+    "mode": "モード",
+    "encode": "エンコード",
+    "decode": "デコード"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Regex Tester",
+  "description": "Test regular expressions with real-time matching and highlighting",
+  "patternPlaceholder": "Enter regex pattern...",
+  "testString": "Test String",
+  "testStringPlaceholder": "Enter text to test against...",
+  "matchCount": "Matches",
+  "matchResult": "Match Result",
+  "groups": "Capture Groups",
+  "matchIndex": "Match #{{index}}",
+  "group": "Group"
+}

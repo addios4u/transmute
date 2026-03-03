@@ -1,0 +1,12 @@
+{
+  "title": "正则测试器",
+  "description": "通过实时匹配和高亮测试正则表达式",
+  "patternPlaceholder": "输入正则表达式模式...",
+  "testString": "测试字符串",
+  "testStringPlaceholder": "输入要测试的文本...",
+  "matchCount": "匹配数",
+  "matchResult": "匹配结果",
+  "groups": "捕获组",
+  "matchIndex": "匹配 #{{index}}",
+  "group": "组"
+}

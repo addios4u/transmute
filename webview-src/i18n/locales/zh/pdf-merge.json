@@ -1,0 +1,10 @@
+{
+  "title": "PDF合并",
+  "description": "上传多个PDF文件并合并为一个文档",
+  "dropzone": "将PDF文件拖放到此处，或点击选择（可多选）",
+  "fileCount": "已选择{{count}}个文件",
+  "totalPages": "共{{count}}页",
+  "pages": "{{count}}页",
+  "processing": "合并中...",
+  "mergeAndDownload": "合并并下载（{{count}}个文件）"
+}

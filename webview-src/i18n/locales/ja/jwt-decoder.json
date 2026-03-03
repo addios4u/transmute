@@ -1,0 +1,16 @@
+{
+  "title": "JWTデコーダー",
+  "description": "JWTトークンを貼り付けてヘッダー、ペイロード、署名をデコード",
+  "inputLabel": "JWTトークン",
+  "inputPlaceholder": "JWTトークンをここに貼り付けてください...",
+  "header": "ヘッダー",
+  "payload": "ペイロード",
+  "signature": "署名",
+  "expiresAt": "有効期限",
+  "expired": "期限切れ",
+  "valid": "有効",
+  "error": {
+    "invalid_jwt_format": "無効なJWT形式です。JWTはドットで区切られた3つの部分が必要です。",
+    "invalid_jwt_content": "JWTのデコードに失敗しました。トークンの内容が無効です。"
+  }
+}

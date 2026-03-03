@@ -1,0 +1,16 @@
+{
+  "title": "JWT 디코더",
+  "description": "JWT 토큰을 붙여넣어 헤더, 페이로드, 서명을 디코딩하세요",
+  "inputLabel": "JWT 토큰",
+  "inputPlaceholder": "JWT 토큰을 여기에 붙여넣으세요...",
+  "header": "헤더",
+  "payload": "페이로드",
+  "signature": "서명",
+  "expiresAt": "만료 시간",
+  "expired": "만료됨",
+  "valid": "유효",
+  "error": {
+    "invalid_jwt_format": "잘못된 JWT 형식입니다. JWT는 점으로 구분된 3개의 부분이 필요합니다.",
+    "invalid_jwt_content": "JWT 디코딩에 실패했습니다. 토큰 내용이 유효하지 않습니다."
+  }
+}

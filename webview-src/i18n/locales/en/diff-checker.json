@@ -1,0 +1,11 @@
+{
+  "title": "Diff Checker",
+  "description": "Compare two texts and visualize the differences",
+  "original": "Original",
+  "modified": "Modified",
+  "originalPlaceholder": "Paste original text here...",
+  "modifiedPlaceholder": "Paste modified text here...",
+  "compare": "Compare",
+  "sideBySide": "Side by Side",
+  "inline": "Inline"
+}

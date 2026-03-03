@@ -1,0 +1,7 @@
+{
+  "title": "Base64 to Image",
+  "description": "Paste Base64 string to preview and download as image",
+  "input": "Base64 Input",
+  "preview": "Image Preview",
+  "noPreview": "Paste a valid Base64 image string to see preview"
+}

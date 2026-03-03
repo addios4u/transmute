@@ -1,0 +1,16 @@
+{
+  "title": "Image Converter",
+  "description": "Upload an image and convert it to PNG, JPEG, or WebP format",
+  "dropzone": "Drop image here or click to select",
+  "input": "Original Image",
+  "output": "Converted Image",
+  "noResult": "Upload an image and click Convert to see the result",
+  "changeImage": "Change",
+  "converting": "Converting...",
+  "sizeComparison": "{{original}} → {{converted}} ({{ratio}})",
+  "resolution": "{{width}} × {{height}}",
+  "options": {
+    "outputFormat": "Output Format",
+    "quality": "Quality"
+  }
+}

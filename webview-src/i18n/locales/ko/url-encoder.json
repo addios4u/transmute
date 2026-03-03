@@ -1,0 +1,12 @@
+{
+  "title": "URL 인코더 / 디코더",
+  "description": "URL 컴포넌트를 인코딩하거나 디코딩합니다",
+  "input": "입력",
+  "output": "출력",
+  "inputPlaceholder": "인코딩 또는 디코딩할 텍스트를 입력하세요...",
+  "options": {
+    "mode": "모드",
+    "encode": "인코딩",
+    "decode": "디코딩"
+  }
+}

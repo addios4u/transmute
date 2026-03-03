@@ -1,0 +1,12 @@
+{
+  "title": "正規表現テスター",
+  "description": "リアルタイムのマッチングとハイライトで正規表現をテスト",
+  "patternPlaceholder": "正規表現パターンを入力...",
+  "testString": "テスト文字列",
+  "testStringPlaceholder": "テストするテキストを入力...",
+  "matchCount": "マッチ数",
+  "matchResult": "マッチ結果",
+  "groups": "キャプチャグループ",
+  "matchIndex": "マッチ #{{index}}",
+  "group": "グループ"
+}

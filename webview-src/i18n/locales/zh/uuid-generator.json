@@ -1,0 +1,16 @@
+{
+  "title": "UUID 生成器",
+  "description": "生成随机UUID v4标识符",
+  "output": "已生成的UUID",
+  "generate": "生成",
+  "noResults": "点击生成按钮创建UUID",
+  "options": {
+    "count": "数量",
+    "case": "大小写",
+    "lowercase": "小写",
+    "uppercase": "大写",
+    "hyphens": "连字符",
+    "withHyphens": "包含连字符",
+    "withoutHyphens": "不含连字符"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "JWT Decoder",
+  "description": "Paste a JWT token to decode its header, payload, and signature",
+  "inputLabel": "JWT Token",
+  "inputPlaceholder": "Paste your JWT token here...",
+  "header": "Header",
+  "payload": "Payload",
+  "signature": "Signature",
+  "expiresAt": "Expires at",
+  "expired": "Expired",
+  "valid": "Valid",
+  "error": {
+    "invalid_jwt_format": "Invalid JWT format. A JWT must have 3 parts separated by dots.",
+    "invalid_jwt_content": "Failed to decode JWT. The token content is invalid."
+  }
+}

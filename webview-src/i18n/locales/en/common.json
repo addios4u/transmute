@@ -1,0 +1,131 @@
+{
+  "app": {
+    "name": "Transmute",
+    "tagline": "Transform data. Keep meaning."
+  },
+  "home": {
+    "hero": {
+      "title": "Every format, one toolkit",
+      "subtitle": "Free browser-based tools to convert JSON, images, and more — privately and instantly.",
+      "cta": "Get Started"
+    }
+  },
+  "groups": {
+    "base64": "Base64",
+    "json": "JSON",
+    "image": "Image",
+    "pdf": "PDF",
+    "utility": "Utility",
+    "developer": "Developer"
+  },
+  "tools": {
+    "jsonToTs": {
+      "title": "JSON to TypeScript",
+      "description": "Generate TypeScript interfaces and types from any JSON data."
+    },
+    "jsonToXml": {
+      "title": "JSON to XML",
+      "description": "Convert JSON data into well-formed XML markup."
+    },
+    "xmlToJson": {
+      "title": "XML to JSON",
+      "description": "Parse XML documents into clean JSON data."
+    },
+    "imageToBase64": {
+      "title": "Image to Base64",
+      "description": "Convert images to Base64-encoded strings for embedding in code."
+    },
+    "base64ToImage": {
+      "title": "Base64 to Image",
+      "description": "Decode Base64 strings back into downloadable image files."
+    },
+    "imageConverter": {
+      "title": "Image Converter",
+      "description": "Convert images between PNG, JPEG, and WebP formats."
+    },
+    "imageResizer": {
+      "title": "Image Resizer",
+      "description": "Upload multiple images, batch resize, and download as ZIP."
+    },
+    "imageEditor": {
+      "title": "Image Editor",
+      "description": "Resize, crop, and convert image formats in your browser."
+    },
+    "pdfMerge": {
+      "title": "PDF Merge",
+      "description": "Combine multiple PDF files into a single document."
+    },
+    "pdfSplit": {
+      "title": "PDF Split",
+      "description": "Extract pages or split a PDF into individual files."
+    },
+    "jsonFormatter": {
+      "title": "JSON Formatter",
+      "description": "Format, minify, and validate JSON data."
+    },
+    "urlEncoder": {
+      "title": "URL Encoder",
+      "description": "Encode or decode URL components."
+    },
+    "hashGenerator": {
+      "title": "Hash Generator",
+      "description": "Generate SHA hashes from text or files."
+    },
+    "uuidGenerator": {
+      "title": "UUID Generator",
+      "description": "Generate random UUID v4 identifiers."
+    },
+    "timestampConverter": {
+      "title": "Timestamp Converter",
+      "description": "Convert between Unix timestamps and dates."
+    },
+    "jwtDecoder": {
+      "title": "JWT Decoder",
+      "description": "Decode JWT tokens to inspect header, payload, and signature."
+    },
+    "regexTester": {
+      "title": "Regex Tester",
+      "description": "Test regular expressions with real-time matching and highlighting."
+    },
+    "diffChecker": {
+      "title": "Diff Checker",
+      "description": "Compare two texts and visualize the differences."
+    },
+    "colorConverter": {
+      "title": "Color Converter",
+      "description": "Convert colors between HEX, RGB, and HSL formats."
+    },
+    "csvJson": {
+      "title": "CSV / JSON",
+      "description": "Convert between CSV and JSON formats."
+    }
+  },
+  "comingSoon": "Coming Soon",
+  "inDevelopment": "In Dev",
+  "action": {
+    "convert": "Convert",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "clear": "Clear",
+    "paste": "Paste",
+    "download": "Download"
+  },
+  "error": {
+    "invalidJson": "Invalid JSON",
+    "parseError": "Parse error at line {{line}}"
+  },
+  "footer": {
+    "privacy": "All processing happens in your browser. No data is sent to any server."
+  },
+  "theme": {
+    "system": "System",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "language": {
+    "en": "English",
+    "ko": "한국어",
+    "ja": "日本語",
+    "zh": "中文"
+  }
+}

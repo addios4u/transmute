@@ -1,0 +1,16 @@
+{
+  "title": "PDF分割",
+  "description": "PDFファイルをアップロードしてページを抽出または個別ファイルに分割します",
+  "dropzone": "PDFファイルをここにドロップ、またはクリックして選択",
+  "totalPages": "{{count}}ページ",
+  "processing": "分割中...",
+  "extractAndDownload": "抽出＆ダウンロード",
+  "splitAndDownload": "全ページ分割＆ZIPダウンロード",
+  "options": {
+    "range": "ページ範囲",
+    "individual": "個別ページ",
+    "pageRangeLabel": "ページ番号または範囲を入力してください（1-{{total}}）",
+    "pageRangePlaceholder": "例: 1-3, 5, 7-9",
+    "individualDescription": "{{count}}ページすべてが個別のPDFファイルとして保存され、ZIPでダウンロードされます。"
+  }
+}

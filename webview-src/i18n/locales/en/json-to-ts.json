@@ -1,0 +1,16 @@
+{
+  "title": "JSON to TypeScript",
+  "description": "Paste JSON to generate TypeScript types",
+  "options": {
+    "rootTypeName": "Root type name",
+    "useInterface": "Use interface",
+    "useType": "Use type",
+    "optionalProperties": "Optional properties",
+    "strict": "Strict",
+    "loose": "Loose",
+    "arrayInference": "Array inference",
+    "firstElement": "First element",
+    "mergeAll": "Merge all",
+    "outputZod": "Generate Zod schema"
+  }
+}

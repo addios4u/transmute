@@ -1,0 +1,16 @@
+{
+  "title": "PDF Split",
+  "description": "Upload a PDF file and extract pages or split into individual files",
+  "dropzone": "Drop a PDF file here, or click to select",
+  "totalPages": "{{count}} page(s)",
+  "processing": "Splitting...",
+  "extractAndDownload": "Extract & Download",
+  "splitAndDownload": "Split All & Download ZIP",
+  "options": {
+    "range": "Page Range",
+    "individual": "Individual Pages",
+    "pageRangeLabel": "Enter page numbers or ranges (1-{{total}})",
+    "pageRangePlaceholder": "e.g., 1-3, 5, 7-9",
+    "individualDescription": "Each of the {{count}} pages will be saved as a separate PDF file and downloaded as a ZIP."
+  }
+}

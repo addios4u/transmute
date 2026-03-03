@@ -1,0 +1,19 @@
+{
+  "title": "画像リサイズ",
+  "description": "複数の画像をアップロードして一括リサイズし、まとめてダウンロード",
+  "dropzone": "画像またはZIPファイルをドラッグまたはクリックして選択（複数選択可）",
+  "fileCount": "{{count}}ファイル選択済み",
+  "processing": "処理中...",
+  "errorItem": "エラー",
+  "progressText": "{{current}} / {{total}} 処理完了",
+  "resizeAndDownload": "リサイズ＆ダウンロード（{{count}}ファイル）",
+  "options": {
+    "resize": "リサイズ",
+    "ratio": "比率",
+    "maxDimension": "最大サイズ",
+    "width": "幅",
+    "height": "高さ",
+    "format": "フォーマット",
+    "quality": "品質"
+  }
+}

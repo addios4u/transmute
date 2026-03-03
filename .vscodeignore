@@ -1,0 +1,14 @@
+src/
+webview-src/
+node_modules/
+.vscode/
+.claude/
+.omc/
+.git/
+*.ts
+!out/**
+tsconfig*.json
+esbuild.mjs
+vite.config.ts
+pnpm-lock.yaml
+.gitignore

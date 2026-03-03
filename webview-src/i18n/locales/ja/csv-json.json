@@ -1,0 +1,14 @@
+{
+  "title": "CSV / JSON",
+  "description": "カスタマイズ可能な区切り文字でCSVとJSON形式を変換",
+  "csvToJson": "CSV \u2192 JSON",
+  "jsonToCsv": "JSON \u2192 CSV",
+  "delimiter": "区切り文字",
+  "delimiterComma": "カンマ",
+  "delimiterTab": "タブ",
+  "delimiterSemicolon": "セミコロン",
+  "error": {
+    "json_not_array": "JSONはオブジェクトの配列である必要があります。",
+    "invalid_json": "無効なJSON形式です。"
+  }
+}

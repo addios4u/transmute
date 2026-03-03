@@ -1,0 +1,16 @@
+{
+  "title": "JSON → TypeScript",
+  "description": "JSONを貼り付けてTypeScript型を生成",
+  "options": {
+    "rootTypeName": "ルート型名",
+    "useInterface": "interface使用",
+    "useType": "type使用",
+    "optionalProperties": "オプショナルプロパティ",
+    "strict": "厳格",
+    "loose": "緩い",
+    "arrayInference": "配列推論",
+    "firstElement": "最初の要素",
+    "mergeAll": "全て統合",
+    "outputZod": "Zodスキーマ生成"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "タイムスタンプ変換",
+  "description": "Unixタイムスタンプと人間が読める日付を相互変換します",
+  "currentTime": "現在時刻",
+  "localTime": "ローカル",
+  "relative": "相対時間",
+  "input": "入力",
+  "output": "結果",
+  "timestampPlaceholder": "Unixタイムスタンプを入力（例：1700000000）",
+  "autoDetect": "秒とミリ秒は自動検出されます",
+  "noResults": "タイムスタンプを入力するか日付を選択して変換",
+  "options": {
+    "mode": "モード",
+    "toDate": "タイムスタンプ → 日付",
+    "toTimestamp": "日付 → タイムスタンプ"
+  }
+}

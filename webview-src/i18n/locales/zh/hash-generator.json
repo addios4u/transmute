@@ -1,0 +1,9 @@
+{
+  "title": "哈希生成器",
+  "description": "从文本或文件生成SHA-1、SHA-256、SHA-384、SHA-512哈希",
+  "input": "输入文本",
+  "output": "哈希结果",
+  "inputPlaceholder": "输入要哈希的文本...",
+  "dropFile": "拖放文件到此处或点击选择",
+  "noResults": "输入文本或拖放文件以生成哈希"
+}

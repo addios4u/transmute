@@ -1,0 +1,10 @@
+{
+  "title": "PDF 합치기",
+  "description": "여러 PDF 파일을 업로드하고 하나의 문서로 합칩니다",
+  "dropzone": "PDF 파일을 여기에 드롭하거나, 클릭하여 선택하세요 (다중 선택)",
+  "fileCount": "{{count}}개 파일 선택됨",
+  "totalPages": "총 {{count}}페이지",
+  "pages": "{{count}}페이지",
+  "processing": "합치는 중...",
+  "mergeAndDownload": "합치기 & 다운로드 ({{count}}개 파일)"
+}

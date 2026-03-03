@@ -1,0 +1,7 @@
+{
+  "title": "Base64 → 画像",
+  "description": "Base64文字列を貼り付けて画像をプレビュー・ダウンロード",
+  "input": "Base64入力",
+  "preview": "画像プレビュー",
+  "noPreview": "有効なBase64画像文字列を貼り付けてプレビューを表示"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "CSV / JSON",
+  "description": "CSV와 JSON 포맷 간 변환 (구분자 선택 가능)",
+  "csvToJson": "CSV \u2192 JSON",
+  "jsonToCsv": "JSON \u2192 CSV",
+  "delimiter": "구분자",
+  "delimiterComma": "쉼표",
+  "delimiterTab": "탭",
+  "delimiterSemicolon": "세미콜론",
+  "error": {
+    "json_not_array": "JSON은 객체 배열이어야 합니다.",
+    "invalid_json": "유효하지 않은 JSON 형식입니다."
+  }
+}

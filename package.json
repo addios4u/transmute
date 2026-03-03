@@ -1,0 +1,137 @@
+{
+  "name": "transmute",
+  "displayName": "Transmute",
+  "description": "Developer utility toolkit — JSON, Image, PDF, and more. All processing happens on your device.",
+  "version": "1.0.0",
+  "publisher": "addios4u",
+  "packageManager": "pnpm@10.11.0",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "icon": "assets/icon.png",
+  "categories": [
+    "Formatters",
+    "Other"
+  ],
+  "keywords": [
+    "transmute",
+    "json",
+    "base64",
+    "pdf",
+    "converter",
+    "formatter",
+    "developer tools",
+    "uuid",
+    "hash",
+    "jwt",
+    "regex",
+    "diff",
+    "csv",
+    "xml",
+    "typescript",
+    "color",
+    "timestamp",
+    "url encoder"
+  ],
+  "galleryBanner": {
+    "color": "#1e3a5f",
+    "theme": "dark"
+  },
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "l10n": "./l10n",
+  "contributes": {
+    "commands": [
+      {
+        "command": "transmute.open",
+        "title": "%command.open%",
+        "category": "Transmute"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "transmute.clipboard.copy",
+        "key": "ctrl+c",
+        "mac": "cmd+c",
+        "when": "activeWebviewPanelId == 'transmute.panel'"
+      },
+      {
+        "command": "transmute.clipboard.cut",
+        "key": "ctrl+x",
+        "mac": "cmd+x",
+        "when": "activeWebviewPanelId == 'transmute.panel'"
+      },
+      {
+        "command": "transmute.clipboard.paste",
+        "key": "ctrl+v",
+        "mac": "cmd+v",
+        "when": "activeWebviewPanelId == 'transmute.panel'"
+      },
+      {
+        "command": "transmute.selectAll",
+        "key": "ctrl+a",
+        "mac": "cmd+a",
+        "when": "activeWebviewPanelId == 'transmute.panel'"
+      }
+    ]
+  },
+  "scripts": {
+    "compile:ext": "node esbuild.mjs",
+    "compile:webview": "vite build",
+    "compile": "pnpm compile:ext && pnpm compile:webview",
+    "watch:ext": "node esbuild.mjs --watch",
+    "watch:webview": "vite build --watch",
+    "dev": "concurrently \"pnpm watch:ext\" \"pnpm watch:webview\"",
+    "package": "pnpm compile && vsce package --no-dependencies -o out/transmute-$npm_package_version.vsix",
+    "publish:vsce": "pnpm package && vsce publish --no-dependencies",
+    "publish:ovsx": "pnpm package && ovsx publish out/transmute-$npm_package_version.vsix",
+    "publish:all": "pnpm publish:vsce && pnpm publish:ovsx"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "@swc/core",
+      "@vscode/vsce-sign",
+      "keytar"
+    ]
+  },
+  "dependencies": {
+    "@vscode/l10n": "^0.0.18"
+  },
+  "devDependencies": {
+    "@monaco-editor/react": "^4.7.0",
+    "@tabler/icons-react": "^3.36.1",
+    "@tailwindcss/vite": "^4.1.18",
+    "@types/lodash": "^4.17.23",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-color": "^3.0.13",
+    "@types/react-dom": "^19.2.3",
+    "@types/uuid": "^10.0.0",
+    "@types/vscode": "^1.85.0",
+    "@vitejs/plugin-react-swc": "^4.2.2",
+    "@vscode/vsce": "^2.22.0",
+    "concurrently": "^9.1.0",
+    "esbuild": "^0.25.0",
+    "i18next": "^25.8.4",
+    "jszip": "^3.10.1",
+    "lodash": "^4.17.23",
+    "moment": "^2.30.1",
+    "monaco-editor": "^0.55.1",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^5.4.624",
+    "react": "^19.2.0",
+    "react-color": "^2.19.3",
+    "react-dom": "^19.2.0",
+    "react-i18next": "^16.5.4",
+    "tailwindcss": "^4.1.18",
+    "typescript": "~5.9.3",
+    "uuid": "^13.0.0",
+    "vite": "^7.3.1"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/addios4u/transmute-extension"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "UUIDジェネレーター",
+  "description": "ランダムなUUID v4識別子を生成します",
+  "output": "生成されたUUID",
+  "generate": "生成",
+  "noResults": "生成ボタンをクリックしてUUIDを作成",
+  "options": {
+    "count": "個数",
+    "case": "大文字/小文字",
+    "lowercase": "小文字",
+    "uppercase": "大文字",
+    "hyphens": "ハイフン",
+    "withHyphens": "ハイフンあり",
+    "withoutHyphens": "ハイフンなし"
+  }
+}

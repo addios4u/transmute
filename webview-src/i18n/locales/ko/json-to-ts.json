@@ -1,0 +1,16 @@
+{
+  "title": "JSON → TypeScript",
+  "description": "JSON을 붙여넣어 TypeScript 타입을 생성하세요",
+  "options": {
+    "rootTypeName": "루트 타입 이름",
+    "useInterface": "interface 사용",
+    "useType": "type 사용",
+    "optionalProperties": "선택적 속성",
+    "strict": "엄격",
+    "loose": "느슨",
+    "arrayInference": "배열 추론",
+    "firstElement": "첫 번째 요소",
+    "mergeAll": "모두 병합",
+    "outputZod": "Zod 스키마 생성"
+  }
+}
