@@ -2,7 +2,7 @@
 
 > Developer utility toolkit — JSON, Image, PDF, and more. All processing happens on your device.
 
-![Screenshot](assets/screenshots/01.png)
+![Screenshot](https://raw.githubusercontent.com/addios4u/transmute/main/assets/screenshots/01.png)
 
 ## Features
 
